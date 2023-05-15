@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninjafy</title>
+</head>
+<style>
+    body{
+        background-color: #131313;
+    }
+    .main-container{
+        width: 60%;
+        margin: 170px 400px;
+        height: 10rem;
+    }
+    .title{
+        color: white;
+        font-family: sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+        margin-left: 50px;
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: 3ms ease-in-out;
+    }
+    .box img{
+        border-radius: 10px;
+        transition: 3ms ease-in-out;
+    }
+    .box-container{
+        display: flex;
+        margin: 0 auto;
+    }
+    .profile1{
+        margin-left: 0px;
+        margin-right: 20px;
+        transition: 3ms ease-in-out;
+    }
+    .profileadd{
+        border-radius: 100px;
+        margin-left: 20px;
+        mix-blend-mode: color-dodge;
+        transition: 3ms ease-in-out;
+    }
+    .profileadd img:hover{
+        border: 1px solid black;
+    }
+    .box img:hover{
+        border: 2px solid white;
+    }
+    .manage {
+        width: 20%;
+        height: 2rem;
+        margin: 50px 0px 20px 175px;
+        background-color: transparent;
+        border: 2px solid white;
+        transition: 3ms ease-in-out;
+    }
+    .manage a{
+        text-decoration: none;
+        color: white;
+        transition: 3ms ease-in-out;
+    }
+    .manage:hover{
+        background-color: white;
+    }
+    .manage a:hover{
+        color: black;
+    }
+</style>
+
+  <div class="main-container">
+
+    <h2 class="title">Who's watching?</h2>
+    <div class="box-container">
+    <div class="box profile1">
+       <a href="video.html"> <img src="8.png" alt="" srcset="" width="100%" height="100%"></a>
+    </div>
+    <div class="box profile2">
+       <a href="video2.html"><img src="9.png" alt="" srcset="" width="100%" height="100%"></a> 
+    </div>
+    <div class="box profileadd">
+       <a href=""><img src="10.jpg" alt="" srcset="" width="100%" height="100%"></a> 
+
+    </div>
+</div>
+    <button class="manage"><a href="">Manage Profiles</a></button>
+  </div>
+
+
+<body>
+    
+</body>
+</html>
